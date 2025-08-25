@@ -1,4 +1,4 @@
-A curated list of awesome AMD ROCm and Instinct GPU resources for AI, ML, and HPC.
+*A curated list of awesome AMD ROCm and Instinct GPU resources for AI, ML, and HPC.*
 
 [ROCm](https://rocm.docs.amd.com/en/latest/) is AMD's open-source software platform for GPU-accelerated computing. [Instinct](https://www.amd.com/en/products/accelerators/instinct.html) is AMD's GPU architecture designed for data centers, AI/ML, HPC, and other high-performance computing applications. [Radeon Pro](https://www.amd.com/en/products/graphics/workstations.html) is AMD's workstation GPU architecture, which is also supported by ROCm. This list focuses on resources for data center, AI/ML, and high-performance computing applications on AMD Instinct accelerators.
 
