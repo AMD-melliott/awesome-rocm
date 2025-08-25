@@ -153,5 +153,9 @@
   * **[ROCm GitHub Organization](https://github.com/rocm)** - The home of all official ROCm-related repositories.
   * **[ROCm Code Examples](https://github.com/rocm/rocm-examples)** - A collection of sample code demonstrating various features of the ROCm platform.
   * **[AMD Developer Cloud](https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html)** - A program that provides free cloud access to AMD Instinct hardware for developers and researchers.
+  * **[Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.
+  * **[Awesome AI/ML Resources](https://github.com/armankhondker/awesome-ai-ml-resources)** - Learn AI/ML for beginners with a roadmap and free resources.
+  * **[Awesome AI](https://github.com/openbestof/awesome-ai)** - A curated list of awesome AI tools, frameworks, api, software and resources.
+  * **[Awesome LLM](https://github.com/Hannibal046/Awesome-LLM)** - A collection of resources and papers related to large language models. 
   * **[Official ROCm Documentation](https://rocm.docs.amd.com)** - The official documentation portal for the ROCm software stack.
   * **[Official Instinct Documentation](https://instinct.docs.amd.com)** - The official documentation portal for Instinct hardware and cluster management.
