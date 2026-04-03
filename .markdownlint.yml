@@ -1,0 +1,26 @@
+# markdownlint configuration
+# https://github.com/DavidAnson/markdownlint/blob/main/doc/Rules.md
+
+# Line length — awesome lists commonly have long link+description lines
+MD013:
+  line_length: 600
+  tables: false
+  headings: false
+
+# Allow duplicate headings in different sections (e.g., multiple "Overview" sub-headings)
+MD024:
+  siblings_only: true
+
+# Allow nested lists with indentation (used for sub-resources)
+MD007:
+  indent: 2
+
+# Ordered list item prefix — allow "1. 2. 3." style
+MD029:
+  style: ordered
+
+# Allow inline HTML (used for badges, collapsible sections, etc.)
+MD033: false
+
+# First line in file doesn't need to be a heading (README starts with a badge line)
+MD041: false

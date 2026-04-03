@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: ROCm Documentation
+    url: https://rocm.docs.amd.com/en/latest/
+    about: Official AMD ROCm documentation — search here first before opening an issue.
+  - name: ROCm GitHub Discussions
+    url: https://github.com/ROCm/ROCm/discussions
+    about: Questions about ROCm itself belong in the upstream ROCm repo discussions.
