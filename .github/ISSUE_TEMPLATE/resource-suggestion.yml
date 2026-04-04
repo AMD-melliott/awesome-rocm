@@ -1,0 +1,70 @@
+name: Resource Suggestion
+description: Suggest a new resource to add to the list
+labels: ["resource-suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for contributing! Please review the [quality guidelines](../CONTRIBUTING.md#quality-guidelines) before submitting.
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      description: The URL of the resource you want to add.
+      placeholder: https://example.com/awesome-resource
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Resource Name
+      description: A short, descriptive name for the resource (as it will appear in the list).
+      placeholder: "e.g., ROCm Profiler Guide"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A 1-2 sentence description of what this resource provides and why it's useful.
+      placeholder: "A comprehensive guide to profiling GPU kernels with ROCm's built-in profiling tools."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Suggested Section
+      description: Which section does this resource belong in?
+      options:
+        - Core Infrastructure
+        - Container & Orchestration Hub
+        - AI / ML Frameworks
+        - Model Serving & Inference
+        - CUDA to ROCm Migration
+        - Community Projects & Tools
+        - Performance, Benchmarking & Optimization
+        - Monitoring & Observability
+        - Reference Architectures & Use Cases
+        - Community & Learning Resources
+        - Not sure / New section needed
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: quality-check
+    attributes:
+      label: Quality Checklist
+      description: Please confirm the resource meets our guidelines before submitting.
+      options:
+        - label: This resource is relevant to AMD ROCm, Instinct GPUs, or HPC/AI on AMD hardware
+          required: true
+        - label: This is not a duplicate of an existing entry in the list
+          required: true
+        - label: The resource is actively maintained or is an authoritative reference
+          required: true
+        - label: The resource is not behind a paywall (or has substantial free content)
+          required: false

@@ -1,0 +1,43 @@
+name: Broken Link
+description: Report a broken or outdated link in the list
+labels: ["broken-link"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep this list accurate! Please fill out the details below.
+
+  - type: input
+    id: link
+    attributes:
+      label: Broken Link URL
+      description: The URL that is broken, returning an error, or redirecting incorrectly.
+      placeholder: https://example.com/broken-page
+    validations:
+      required: true
+
+  - type: input
+    id: section
+    attributes:
+      label: Section
+      description: Which section of the README contains this link?
+      placeholder: "e.g., AI / ML Frameworks"
+    validations:
+      required: true
+
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested Replacement URL (optional)
+      description: If you know of a working replacement, share it here.
+      placeholder: https://example.com/new-page
+    validations:
+      required: false
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any other context about this link (e.g., content has moved, project archived, etc.)
+    validations:
+      required: false
