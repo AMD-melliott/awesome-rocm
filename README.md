@@ -1,6 +1,6 @@
 *A curated list of awesome AMD ROCm and Instinct GPU resources for AI, ML, and HPC.*
 
-[ROCm](https://rocm.docs.amd.com/en/latest/) is AMD's open-source software platform for GPU-accelerated computing. [Instinct](https://www.amd.com/en/products/accelerators/instinct.html) is AMD's GPU architecture designed for data centers, AI/ML, HPC, and other high-performance computing applications. [Radeon Pro](https://www.amd.com/en/products/graphics/workstations.html) is AMD's workstation GPU architecture, which is also supported by ROCm. This list focuses on resources for data center, AI/ML, and high-performance computing applications on AMD Instinct accelerators.
+[ROCm](https://rocm.docs.amd.com/en/latest/) is AMD's open-source software platform for GPU-accelerated computing. [Instinct](https://www.amd.com/en/products/accelerators/instinct.html) is AMD's GPU architecture designed for data centers, AI/ML, HPC, and other high-performance computing applications. [Radeon Pro](https://www.amd.com/en/products/graphics/workstations.html) is AMD's workstation GPU architecture, which is also supported by ROCm. [Radeon](https://www.amd.com/en/products/graphics.html) consumer GPUs (RDNA 3/4) and Ryzen APUs are also increasingly supported for local AI development. This list focuses on resources for data center, AI/ML, and high-performance computing applications, primarily targeting AMD Instinct accelerators.
 
 ## Contents
 
@@ -43,6 +43,8 @@
 - **[Supported GPUs and OS Matrix](https://rocm.docs.amd.com/en/latest/compatibility/compatibility-matrix.html)** - The official compatibility matrix for ROCm versions, GPUs, and operating systems.
 - **[ROCm Tools, Compilers, and Runtimes](https://rocm.docs.amd.com/en/develop/reference/rocm-tools.html)** - A reference guide to the complete suite of ROCm development tools.
 - **[System Acceptance & Verification](https://instinct.docs.amd.com/projects/system-acceptance/en/latest/index.html)** - Procedures for verifying and testing a ROCm installation.
+- **[ROCm on Radeon and Ryzen](https://rocm.docs.amd.com/projects/radeon-ryzen/en/latest/index.html)** - Official guide for using ROCm on consumer Radeon GPUs (RDNA 3 & 4) and Ryzen APUs, enabling local AI development and inference with PyTorch support on Linux and Windows.
+- **[TheRock (The HIP Environment and ROCm Kit)](https://github.com/ROCm/TheRock)** - AMD's next-generation open-source build platform for HIP and ROCm, featuring nightly releases, a CMake super-project for cross-platform source builds, and comprehensive CI/CD pipelines; currently in early preview and designated as the future default ROCm build system.
 
 ### System Architecture & Networking
 
