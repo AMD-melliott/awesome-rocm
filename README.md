@@ -1,29 +1,28 @@
 *A curated list of awesome AMD ROCm and Instinct GPU resources for AI, ML, and HPC.*
 
-[ROCm](https://rocm.docs.amd.com/en/latest/) is AMD's open-source software platform for GPU-accelerated computing.
-[Instinct](https://www.amd.com/en/products/accelerators/instinct.html) is AMD's GPU architecture designed for data centers, AI/ML, HPC, and other high-performance computing applications.
-[Radeon Pro](https://www.amd.com/en/products/graphics/workstations.html) is AMD's workstation GPU architecture, which is also supported by ROCm.
-[Radeon](https://www.amd.com/en/products/graphics.html) consumer GPUs (RDNA 3/4) and Ryzen APUs are also increasingly supported for local AI development.
-This list focuses on resources for data center, AI/ML, and high-performance computing applications, primarily targeting AMD Instinct accelerators.
+From running large language models and fine-tuning foundation models to distributed training,
+high-throughput inference, and scientific simulation — AMD's GPU stack powers the full AI
+development lifecycle. [ROCm](https://rocm.docs.amd.com/en/latest/) is the open-source software
+platform that makes it possible, and [Instinct](https://www.amd.com/en/products/accelerators/instinct.html)
+accelerators (MI300X, MI325X, MI350X) are the hardware it was built for. [Radeon Pro](https://www.amd.com/en/products/graphics/workstations.html)
+workstation GPUs, consumer [Radeon](https://www.amd.com/en/products/graphics.html) RDNA 3/4 GPUs,
+and Ryzen APUs round out the ecosystem for local development and inference.
+
+This list collects the best official docs, open-source tools, reference architectures, and community
+resources for getting things done on AMD hardware.
 
 ## Contents
 
-- [🏗️ Core Infrastructure](#️-core-infrastructure)
-  - [AMD Instinct GPU Hardware](#amd-instinct-gpu-hardware)
-  - [ROCm Software Stack](#rocm-software-stack)
-  - [System Architecture \& Networking](#system-architecture--networking)
-  - [Virtualization \& Partitioning](#virtualization--partitioning)
-- [🐳 Container \& Orchestration Hub](#-container--orchestration-hub)
-  - [Container Foundation](#container-foundation)
-  - [Kubernetes Integration](#kubernetes-integration)
-- [🤖 AI / ML Frameworks](#-ai--ml-frameworks)
-- [🚀 Model Serving \& Inference](#-model-serving--inference)
-- [🔄 CUDA to ROCm Migration](#-cuda-to-rocm-migration)
-- [🛠️ Community Projects \& Tools](#️-community-projects--tools)
-- [⚡ Performance, Benchmarking \& Optimization](#-performance-benchmarking--optimization)
-- [📊 Monitoring \& Observability](#-monitoring--observability)
-- [🏛️ Reference Architectures \& Use Cases](#️-reference-architectures--use-cases)
-- [📚 Community \& Learning Resources](#-community--learning-resources)
+- [🏗️ Core Infrastructure](#️-core-infrastructure) — Hardware, ROCm stack, networking, and virtualization
+- [🐳 Container \& Orchestration Hub](#-container--orchestration-hub) — Docker images and Kubernetes GPU management
+- [🤖 AI / ML Frameworks](#-ai--ml-frameworks) — PyTorch, TensorFlow, and JAX on ROCm
+- [🚀 Model Serving \& Inference](#-model-serving--inference) — vLLM, SGLang, TGI, and distributed inference
+- [🔄 CUDA to ROCm Migration](#-cuda-to-rocm-migration) — HIP, HIPIFY, and porting guides
+- [🛠️ Community Projects \& Tools](#️-community-projects--tools) — Open-source tools with ROCm support
+- [⚡ Performance, Benchmarking \& Optimization](#-performance-benchmarking--optimization) — Tuning guides and benchmarks
+- [📊 Monitoring \& Observability](#-monitoring--observability) — AMD SMI, Prometheus, and Grafana
+- [🏛️ Reference Architectures \& Use Cases](#️-reference-architectures--use-cases) — End-to-end deployment patterns
+- [📚 Community \& Learning Resources](#-community--learning-resources) — Forums, docs portals, and examples
 
 -----
 
