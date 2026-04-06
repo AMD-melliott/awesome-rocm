@@ -15,6 +15,8 @@ include_fragments = false
 exclude = [
   # LinkedIn blocks automated link checks
   "^https?://(www\\.)?linkedin\\.com",
+  # Reddit returns 403 to bots/CI environments
+  "^https?://(www\\.)?reddit\\.com",
   # AMD's PDF CDN is slow and often returns transient errors to bots
   "^https?://www\\.amd\\.com/content/dam/.*\\.pdf",
   # Local/relative anchors
