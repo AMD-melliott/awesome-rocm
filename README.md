@@ -13,16 +13,16 @@ resources for getting things done on AMD hardware.
 
 ## Contents
 
-- [🏗️ Core Infrastructure](#️-core-infrastructure) — Hardware, ROCm stack, networking, and virtualization
-- [🐳 Container \& Orchestration Hub](#-container--orchestration-hub) — Docker images and Kubernetes GPU management
-- [🤖 AI / ML Frameworks](#-ai--ml-frameworks) — PyTorch, TensorFlow, and JAX on ROCm
-- [🚀 Model Serving \& Inference](#-model-serving--inference) — vLLM, SGLang, TGI, and distributed inference
-- [🔄 CUDA to ROCm Migration](#-cuda-to-rocm-migration) — HIP, HIPIFY, and porting guides
-- [🛠️ Community Projects \& Tools](#️-community-projects--tools) — Open-source tools with ROCm support
-- [⚡ Performance, Benchmarking \& Optimization](#-performance-benchmarking--optimization) — Tuning guides and benchmarks
-- [📊 Monitoring \& Observability](#-monitoring--observability) — AMD SMI, Prometheus, and Grafana
-- [🏛️ Reference Architectures \& Use Cases](#️-reference-architectures--use-cases) — End-to-end deployment patterns
-- [📚 Community \& Learning Resources](#-community--learning-resources) — Forums, docs portals, and examples
+🏗️ [Core Infrastructure](#️-core-infrastructure) — Hardware, ROCm stack, networking, and virtualization<br>
+🐳 [Container \& Orchestration Hub](#-container--orchestration-hub) — Docker images and Kubernetes GPU management<br>
+🤖 [AI / ML Frameworks](#-ai--ml-frameworks) — PyTorch, TensorFlow, and JAX on ROCm<br>
+🚀 [Model Serving \& Inference](#-model-serving--inference) — vLLM, SGLang, TGI, and distributed inference<br>
+🔄 [Workload Migration](#-workload-migration) — HIP, HIPIFY, and porting guides<br>
+🛠️ [Community Projects \& Tools](#️-community-projects--tools) — Open-source tools with ROCm support<br>
+⚡ [Performance, Benchmarking \& Optimization](#-performance-benchmarking--optimization) — Tuning guides and benchmarks<br>
+📊 [Monitoring \& Observability](#-monitoring--observability) — AMD SMI, Prometheus, and Grafana<br>
+🏛️ [Reference Architectures \& Use Cases](#️-reference-architectures--use-cases) — End-to-end deployment patterns<br>
+📚 [Community \& Learning Resources](#-community--learning-resources) — Forums, docs portals, and examples<br>
 
 -----
 
@@ -104,7 +104,7 @@ resources for getting things done on AMD hardware.
 
 -----
 
-## 🔄 CUDA to ROCm Migration
+## 🔄 Workload Migration
 
 - **[HIP Programming Guide](https://rocm.docs.amd.com/projects/HIP/en/latest/what_is_hip.html)** - An introduction to HIP (Heterogeneous-compute Interface for Portability), AMD's C++ runtime API for creating portable GPU applications.
 - **[HIPIFY Tools](https://rocm.docs.amd.com/projects/HIP/en/latest/how-to/hip_porting_guide.html)** - Official documentation for HIPIFY, a set of tools for automatically translating CUDA source code into HIP source code.
