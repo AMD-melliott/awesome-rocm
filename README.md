@@ -114,6 +114,7 @@ resources for getting things done on AMD hardware.
 
 ## 🛠️ Community Projects & Tools
 
+- **[amd-smi-wsl](https://github.com/JoursBleu/amd-smi-wsl)** - Drop-in `amdsmi` Python package for AMD GPUs under WSL2, where the GPU is exposed via DirectX paravirtualization and the native AMD SMI library cannot run. Restores ROCm platform detection and device queries for tools like vLLM and PyTorch with a single `pip install`.
 - **[tinygrad](https://github.com/tinygrad/tinygrad)** - Lightweight deep learning framework with first-class support for AMD GPUs.
 - **[GitHub \#rocm Topic](https://github.com/topics/rocm)** - A collection of open-source projects on GitHub that use ROCm.
 
