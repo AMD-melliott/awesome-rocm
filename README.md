@@ -116,6 +116,7 @@ resources for getting things done on AMD hardware.
 
 - **[tinygrad](https://github.com/tinygrad/tinygrad)** - Lightweight deep learning framework with first-class support for AMD GPUs.
 - **[GitHub \#rocm Topic](https://github.com/topics/rocm)** - A collection of open-source projects on GitHub that use ROCm.
+- **[rocm-rdna4-windows](https://github.com/cantascendia/rocm-rdna4-windows)** - Reproducible guide for running PyTorch natively on Windows with a consumer Radeon RX 9070 XT (RDNA4 / gfx1201) on stable ROCm 7.2.1; documents RDNA4 pitfalls and includes benchmarks. No WSL2.
 
 -----
 
