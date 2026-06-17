@@ -158,6 +158,7 @@ resources for getting things done on AMD hardware.
 - **[ROCm GitHub Organization](https://github.com/rocm)** - The home of all official ROCm-related repositories.
 - **[ROCm Code Examples](https://github.com/rocm/rocm-examples)** - A collection of sample code demonstrating various features of the ROCm platform.
 - **[AMD Developer Cloud](https://www.amd.com/en/developer/resources/cloud-access/amd-developer-cloud.html)** - A program that provides free cloud access to AMD Instinct hardware for developers and researchers.
+- **[Radeon Cloud](https://radeon.anruicloud.com/?utm_source=github&utm_medium=awesome-rocm&utm_campaign=awesome-rocm)** - A Colab/RunPod-style templated GPU notebook cloud running on AMD Radeon GPUs (ROCm), with a free tier and ready-to-run templates for LLM fine-tuning, inference, and Triton kernel development.
 - **[Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps)** - Collection of awesome LLM apps with AI Agents and RAG using OpenAI, Anthropic, Gemini and opensource models.
 - **[Awesome AI/ML Resources](https://github.com/armankhondker/awesome-ai-ml-resources)** - Learn AI/ML for beginners with a roadmap and free resources.
 - **[Awesome AI](https://github.com/openbestof/awesome-ai)** - A curated list of awesome AI tools, frameworks, api, software and resources.
